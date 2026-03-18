@@ -1,0 +1,5 @@
+gradio==6.9.0
+langchain-anthropic
+langchain-core
+langgraph
+python-dotenv

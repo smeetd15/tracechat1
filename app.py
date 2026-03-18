@@ -1,7 +1,7 @@
 import json
 import gradio as gr
 from dotenv import load_dotenv
-load_dotenv()  # picks up ANTHROPIC_API_KEY from .env
+load_dotenv()  # picks up ANTHROPIC_API_KEY from .env when running locally
 from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.tools import tool
